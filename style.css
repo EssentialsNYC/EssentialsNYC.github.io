@@ -202,6 +202,6 @@ p.Confo {
 
 @media (max-width: 400px) {
     .Info {
-        font-size: clamp(4vw, 4.5vw, 5vw);
+        font-size: clamp(3.25vw, 4vw, 5vw);
     }
 }
