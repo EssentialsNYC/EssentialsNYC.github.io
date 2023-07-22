@@ -181,11 +181,11 @@ p.Confo {
         display: grid;
     }
     h1.Sprice {
-        font-size: clamp(3.5vw, 4.5vw, 4.6vw);
+        font-size: clamp(4vw, 4.5vw, 4.6vw);
     }
     p.Sprice {
         margin-top: 0;
-        font-size: clamp(3vw, 4vw, 4.1vw);
+        font-size: clamp(3.5vw, 4vw, 4.1vw);
     }
     span.Sprice {
         font-weight: bold;
@@ -197,5 +197,11 @@ p.Confo {
     }
     p.Confo {
         font-size: 3.7vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .Info {
+        font-size: clamp(4vw, 4.5vw, 5vw);
     }
 }
